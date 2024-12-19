@@ -2,10 +2,13 @@
     --primary-color: #f5e2e4;
     --secondary-color: #86b7fe;
     --accent-color: rosybrown;
+    --text-color: #742222;
+    --dark-text: #333;
 }
 
 body {
     font-family: 'Arial', sans-serif;
+    color: var(--text-color);
 }
 
 .hero-section {
@@ -259,4 +262,94 @@ body {
     width: 100%;
     height: 100%;
     object-fit: contain;
+}
+
+
+
+.abouthero-section {
+    background-color: #E5C3B2;
+    padding: 120px 0;
+    text-align: center;
+    position: relative;
+}
+
+.abouthero-image {
+    width: 40%;
+    height: 40%;
+    object-fit: cover;
+    margin-bottom: -60px;
+}
+
+.aboutbrand-title {
+    font-family: "Times New Roman", serif;
+    color: var(--dark-text);
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.aboutsection-title {
+    font-family: "Times New Roman", serif;
+    color: var(--dark-text);
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+.about-section {
+    padding: 80px 0;
+    background-color: #fff;
+}
+
+.philosophy-section {
+    background-color: #f8f0ed;
+    padding: 80px 0;
+}
+
+.values-section {
+    padding: 80px 0;
+}
+
+.value-card {
+    padding: 30px;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    height: 100%;
+    transition: transform 0.3s ease;
+}
+
+.value-card:hover {
+    transform: translateY(-5px);
+}
+
+.value-icon {
+    font-size: 2.5rem;
+    color: var(--primary-color);
+    margin-bottom: 20px;
+}
+
+.aboutteam-section {
+    background-color: #fff;
+    padding: 80px 0;
+}
+
+.quote-section {
+    background-color: var(--primary-color);
+    padding: 80px 0;
+    text-align: center;
+    font-style: italic;
+}
+
+.aboutbtn-custom {
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    padding: 12px 30px;
+    border: none;
+    border-radius: 25px;
+    transition: background-color 0.3s ease;
+}
+
+.aboutbtn-custom:hover {
+    background-color: #d4b2a1;
+    color: var(--text-color);
 }
